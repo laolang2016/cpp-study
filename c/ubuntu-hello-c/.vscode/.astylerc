@@ -1,0 +1,41 @@
+# Google Coding Style Options
+# C++  - https://google.github.io/styleguide/cppguide.html
+# Java - https://google.github.io/styleguide/javaguide.html
+# ObjC - https://google.github.io/styleguide/objcguide.xml
+
+# braces and indent
+style=google
+# 缩进使用 4 个空格
+indent=spaces=4
+
+# indentation ----------------------------------------------------------------------------------------------------------
+# 缩进 switch case
+indent-switches
+indent-continuation=4
+indent-preproc-block
+indent-preproc-define
+# 代码宽度
+min-conditional-indent=0
+max-continuation-indent=120
+# 注释和代码一起缩进
+indent-col1-comments
+
+# padding --------------------------------------------------------------------------------------------------------------
+# 操作符两端插入一个空格
+pad-oper
+# 在if.for,while等条件或循环语句关键字和括号之间插入空格
+pad-header
+unpad-paren
+# 指针贴近类型
+align-pointer=type
+
+# formatting
+# 从同一行中的语句中断开一行标题（例如，“ if”，“ while”，“ else”，…）
+break-one-line-headers
+keep-one-line-blocks
+# 从同一行中的语句中断开一行标题（例如，“ if”，“ while”，“ else”，…）
+keep-one-line-statements
+# 将制表符转换为空格，插入的空格数将保持制表符的间距。引号中的制表符不会被替换
+convert-tabs
+#close-templates
+

@@ -1,0 +1,29 @@
+{
+    "editor.rulers": [
+        120
+    ],
+    "files.encoding": "utf8",
+    "VsCodeTaskButtons.showCounter": true,
+    "VsCodeTaskButtons.tasks": [
+        {
+            "label": "$(notebook-delete-cell) clean",
+            "task": "clean"
+        },
+        {
+            "label": "$(debug-configure) rebuild",
+            "task": "rebuild"
+        },
+        {
+            "label": "$(notebook-execute) run",
+            "task": "run"
+        },
+        {
+            "label": "$(test-view-icon) test",
+            "task": "test"
+        },
+        {
+            "label": "coverage",
+            "task": "coverage"
+        },
+    ]
+}

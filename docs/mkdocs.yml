@@ -1,0 +1,82 @@
+site_name: My Docs
+
+nav:
+  - '首页': index.md
+  - 'cmake': 
+    - '安装': cmake/安装.md
+    - 'Hello World': cmake/hello.md
+    - '多目录以及生成动态库': cmake/multi-directory-and-dynamic-libraries.md
+  - 'c++':
+    - 'cpp/index.md'
+    - '基操': 'cpp/base.md'
+  - 'c语言':
+    - 'c/index.md'
+    - 'ubuntu c 开发环境搭建': 'c/prepare.md'
+    - 'C 和指针':
+      - 'c/c_and_pointer/index.md'
+      - '一个简单程序': 'c/c_and_pointer/simple_program.md'
+  - 'fltk':
+    - '环境搭建': 'fltk/hello-world.md'
+    - 'hello-world-cmake.md': 'fltk/hello-world-cmake.md'
+    - '绘图': 'fltk/draw-something.md'
+  - 'love2d':
+    - '环境搭建与参考': 'love2d/index.md'
+    - '基本使用': 'love2d/base.md'
+  - '关于': about.md
+
+theme:
+  name: material
+  palette:
+    primary: indigo
+  language: zh
+  logo: assets/cpp_logo.png
+  favicon: assets/cpp_logo.png
+  icon:
+    repo: fontawesome/brands/git-alt
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.path
+    - navigation.top
+    - navigation.footer
+    - navigation.indexes
+    - content.code.copy
+    - content.code.annotate
+
+extra_css:
+  - assets/extra.css
+
+repo_url: https://gitcode.net/u014254963/cpp-study
+repo_name: 'cpp-study'
+
+plugins:
+  - glightbox
+  - search:
+      lang: 
+        - en
+        - zh
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.tabbed:
+      alternate_style: true
+  - footnotes
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+  - footnotes
+  - attr_list
+  - md_in_html
+  - tables
