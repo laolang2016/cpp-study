@@ -1,3 +1,7 @@
 .md-grid{
     max-width: 1600px;
 }
+
+.md-footer__inner{
+    display: none !important;
+}

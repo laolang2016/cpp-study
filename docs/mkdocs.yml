@@ -19,9 +19,13 @@ nav:
     - '环境搭建': 'fltk/hello-world.md'
     - 'hello-world-cmake.md': 'fltk/hello-world-cmake.md'
     - '绘图': 'fltk/draw-something.md'
-  - 'love2d':
-    - '环境搭建与参考': 'love2d/index.md'
-    - '基本使用': 'love2d/base.md'
+  - 'linux':
+    - 'linux/index.md'
+    - 'shell': 'linux/shell.md'
+  - 'bak':
+    - 'love2d':
+      - '环境搭建与参考': 'love2d/index.md'
+      - '基本使用': 'love2d/base.md'
   - '关于': about.md
 
 theme:
@@ -44,6 +48,7 @@ theme:
     - navigation.indexes
     - content.code.copy
     - content.code.annotate
+    - prev_next_buttons: false
 
 extra_css:
   - assets/extra.css

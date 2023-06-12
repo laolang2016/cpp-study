@@ -3,11 +3,17 @@
 mkdocs
     发布 github
 
+```shell
+mkdocs gh-deploy
+```
+
 
 git
     pre-commit 钩子, 检查 commit 规范
 
 multipass
+
+
 
 
 vscode
